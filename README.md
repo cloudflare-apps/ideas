@@ -1,7 +1,7 @@
 Ideas
 =====
 
-Potential ideas for new apps.
+Potential ideas for new Eager apps.
 
 __[View the list →](https://github.com/EagerApps/Ideas/issues)__
 
