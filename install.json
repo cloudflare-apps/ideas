@@ -2,9 +2,43 @@
   "resources": {
     "body": [
       {
+        "type": "style",
+        "src": "./source/app.css"
+      },
+      {
         "type": "script",
-        "src": "./example.js"
+        "src": "./source/app.js"
       }
     ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["*"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "location": {
+        "title": "Message location",
+        "order": 0,
+        "type": "object",
+        "format": "element",
+        "default": {
+          "selector": "body",
+          "method": "prepend"
+        }
+        },
+      "message": {
+        "title": "Message",
+        "description": "A short example message.",
+        "type": "string",
+        "format": "textarea",
+        "order": 1,
+        "default": "Welcome to Eager! This is our example app.\n\nDownload this app every time you want to make a new project!"
+      }
+    }
   }
 }

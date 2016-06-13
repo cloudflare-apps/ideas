@@ -1,0 +1,23 @@
+{
+  "name": "eager-example-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ./source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EagerApps/AppBoilerplate.git"
+  },
+  "author": "Eager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EagerApps/AppBoilerplate/issues"
+  },
+  "homepage": "https://github.com/EagerApps/AppBoilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "2.9.0"
+  }
+}
