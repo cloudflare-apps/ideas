@@ -6,7 +6,7 @@ Download this app and replace our code any time you want to build an Eager app.
 
 ## Setup
 
-Clone the repo or <a href="https://github.com/EagerApps/ExampleApp/archive/v1.0.0.zip" >download the zip</a>.
+Fork the repo or <a href="https://github.com/EagerApps/ExampleApp/releases/latest">download the latest release</a>.
 
 ## Optional Developer Tools
 
