@@ -4,6 +4,8 @@
 
 Download this app and replace our code any time you want to build an Eager app.
 
+_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/EagerApps/ExampleBabelApp)!_
+
 ## Setup
 
 Fork and clone the repo or <a href="https://github.com/EagerApps/ExampleApp/releases/latest">download the latest release</a>.
