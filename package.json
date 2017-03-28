@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint ./source"
+    "lint": "standard ./source/**/*.js || true"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,14 @@
   "homepage": "https://github.com/EagerApps/AppBoilerplate#readme",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "2.9.0"
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
   }
 }
