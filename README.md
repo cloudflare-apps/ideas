@@ -1,18 +1,16 @@
 # Example App
 
-*Get going with Eager!*
+Download this app and replace our code any time you want to build an Cloudflare app.
 
-Download this app and replace our code any time you want to build an Eager app.
-
-_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/EagerApps/ExampleBabelApp)!_
+_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/Cloudflare/ExampleBabelApp)!_
 
 ## Setup
 
-Fork and clone the repo or <a href="https://github.com/EagerApps/ExampleApp/releases/latest">download the latest release</a>.
+Fork and clone the repo or <a href="https://github.com/CloudflareApps/ExampleApp/releases/latest" >download the latest release</a>.
 
-## Optional Developer Tools
+Install the optional developer dependencies with `npm install`
 
-Install the dependencies with `npm install`
+## Usage
 
 * `npm run lint` Check your JavaScript for errors and stylistic recommendations.
 
@@ -28,7 +26,7 @@ Styles for your app.
 
 #### `install.json`
 
-This is where all the <a href="https://eager.io/developer/docs/install-json">installer options</a> are added for the app.
+This is where all the <a href="https://www.cloudflare.com/apps/developer/docs/install-json">installer options</a> are added for the app.
 
 <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
 
@@ -38,13 +36,12 @@ An icon template for your app.
 
 ### Troubleshooting
 
-- <a href="https://eager.io/developer/docs/getting-started">The Eager developer documentation</a> for examples and API usage.
-- <a href="http://community.eager.io/">The Eager community forums</a> for a personal touch.
+- <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
 
-<a href="https://eager.io/app/example-app/install?source=button">
+<a href="https://https://www.cloudflare.com/apps/example-babel-app/install?source=button">
   <img
     src="https://install.eager.io/install-button.png"
-    alt="Install Example App with Eager"
+    alt="Install Example Babel App with Cloudflare"
     border="0"
-    width="140">
+    width="150">
 </a>
