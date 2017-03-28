@@ -1,5 +1,5 @@
 {
-  "name": "eager-example-app",
+  "name": "cloudflare-example-app",
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EagerApps/AppBoilerplate.git"
+    "url": "git+https://github.com/CloudflareApps/ExampleApp.git"
   },
-  "author": "Eager",
+  "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EagerApps/AppBoilerplate/issues"
+    "url": "https://github.com/CloudflareApps/ExampleApp/issues"
   },
-  "homepage": "https://github.com/EagerApps/AppBoilerplate#readme",
+  "homepage": "https://github.com/CloudflareApps/ExampleApp#readme",
   "dependencies": {},
   "devDependencies": {
     "standard": "^9.0.2"

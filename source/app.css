@@ -1,9 +1,10 @@
-/* Prefix classes and custom elements with `eager` to avoid inheriting styles from the page. */
+/* Prefix classes and custom elements with `cloudflare` to avoid inheriting styles from the page. */
 
-.eager-message {
+/* Set the id to your app's alias. */
+cloudflare-app[app-id="example"] {
   display: block;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: .5em .2em;
   outline: 1px dotted;
-  padding: 0.5em;
+  padding: .5em;
 }

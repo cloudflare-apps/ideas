@@ -30,14 +30,14 @@
           "selector": "body",
           "method": "prepend"
         }
-        },
+      },
       "message": {
         "title": "Message",
         "description": "A short example message.",
         "type": "string",
-        "format": "textarea",
+        "format": "richtext",
         "order": 1,
-        "default": "Welcome to Eager! This is our example app.\n\nDownload this app every time you want to make a new project!"
+        "default": "<p>Welcome to Cloudflare Apps! This is our example app.</p><p>Download this app every time you want to make a new project.</p>"
       }
     }
   }
