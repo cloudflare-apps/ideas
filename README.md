@@ -2,7 +2,7 @@
 
 Download this app and replace our code any time you want to build an Cloudflare app.
 
-_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/Cloudflare/ExampleBabelApp)!_
+_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/CloudflareApps/ExampleBabelApp)!_
 
 ## Setup
 
