@@ -2,7 +2,7 @@
 
 Download this app and replace our code any time you want to build an Cloudflare app.
 
-_Looking to use the latest JavaScript and CSS features? Check out our [Babel example app](https://github.com/CloudflareApps/ExampleBabelApp)!_
+_Looking to use the latest JavaScript and CSS features? Check out our [Webpack example app](https://github.com/CloudflareApps/ExampleWebpackApp)!_
 
 ## Setup
 
@@ -12,7 +12,7 @@ Install the optional developer dependencies with `npm install`
 
 ## Usage
 
-* `npm run lint` Check your JavaScript for errors and stylistic recommendations.
+- `npm run lint` Checks JavaScript formatting and attempts to fix any errors.
 
 ## Details
 
