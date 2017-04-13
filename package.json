@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "lint": "standard ./source/**/*.js || true"
+    "lint": "standard --fix ./source/**/*.js || true"
   },
   "repository": {
     "type": "git",
