@@ -37,11 +37,3 @@ An icon and tile template for your app.
 ### Troubleshooting
 
 - <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
-
-<a href="https://www.cloudflare.com/apps/example-app/install?source=button">
-  <img
-    src="https://install.eager.io/install-button.png"
-    alt="Install Example App with Cloudflare"
-    border="0"
-    width="150">
-</a>
