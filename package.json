@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "standard --fix ./source/**/*.js || true"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CloudflareApps/ExampleApp.git"
