@@ -11,7 +11,6 @@
   function updateElement () {
     element = INSTALL.createElement(options.location, element)
 
-
     // Set the app attribute to your app's dash-delimited alias.
     element.setAttribute('app', 'example')
     element.innerHTML = options.message
@@ -26,7 +25,7 @@
 
   // INSTALL_SCOPE is an object that is used to handle option changes without refreshing the page.
   window.INSTALL_SCOPE = {
-    setOptions (nextOptions) {
+    setOptions: function setOptions (nextOptions) {
       options = nextOptions
 
       updateElement()
