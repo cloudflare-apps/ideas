@@ -39,3 +39,11 @@ An directory for icons, tile images, and screenshots.
 ### Troubleshooting
 
 - <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
+
+<a href="https://www.cloudflare.com/apps/[[YOUR APP ALIAS]]/install?source=button">
+  <img
+    src="https://install.cloudflareapps.com/install-button.png"
+    alt="Install [[YOUR APP NAME]] with Cloudflare"
+    border="0"
+    width="150">
+</a>
