@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-app-example",
+  "name": "@cloudflare-apps/example",
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
