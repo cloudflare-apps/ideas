@@ -9,14 +9,14 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudflareApps/example-app.git"
+    "url": "git+https://github.com/cloudflare-apps/example-app.git"
   },
   "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareApps/example-app/issues"
+    "url": "https://github.com/cloudflare-apps/example-app/issues"
   },
-  "homepage": "https://github.com/CloudflareApps/example-app#readme",
+  "homepage": "https://github.com/cloudflare-apps/example-app#readme",
   "dependencies": {},
   "devDependencies": {
     "standard": "^9.0.2"
