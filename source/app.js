@@ -20,8 +20,6 @@
   window.INSTALL_SCOPE = {
     setOptions: function setOptions (nextOptions) {
       options = nextOptions
-      console.log("logg" )
-      console.log(options)
       updateElement()
     }
   }
