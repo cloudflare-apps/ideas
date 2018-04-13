@@ -11,8 +11,19 @@
   function updateElement () {
     element = INSTALL.createElement(options.location, element)
 
-    element.setAttribute('app-id', 'example')
-    element.innerHTML = options
+    // Set the app attribute to your app's dash-delimited alias.
+    element.setAttribute('app', 'example')
+    element.innerHTML = options.message
+  }
+
+  // INSTALL_SCOPE is an object that is used to handle option changes without refreshing the page.
+  window.INSTALL_SCOPE = {
+    setOptions: function setOptions (nextOptions) {
+      options = nextOptions
+      console.log("logg" )
+      console.log(options)
+      updateElement()
+    }
   }
 
   // This code ensures that the app doesn't run before the page is loaded.
@@ -20,15 +31,5 @@
     document.addEventListener('DOMContentLoaded', updateElement)
   } else {
     updateElement()
-  }
-
-  // INSTALL_SCOPE is an object that is used to handle option changes without refreshing the page.
-  window.INSTALL_SCOPE = {
-    setOptions (nextOptions) {
-      options = nextOptions
-      console.log("logg" )
-      console.log(options)
-      updateElement()
-    }
   }
 }())

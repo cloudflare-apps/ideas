@@ -1,5 +1,6 @@
 
 {
+  "$schema": "http://json.schemastore.org/install",
   "resources": {
     "body": [
       {
@@ -16,7 +17,7 @@
   "preview": {
     "handlers": [
       {
-        "options": ["*"],
+        "options": ["_default"],
         "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
       }
     ]
@@ -24,7 +25,8 @@
   "options": {
     "properties": {
       "location": {
-        "title": "Message location",
+        "title": "Message Location",
+        "description": "Where should the message appear?",
         "order": 0,
         "type": "object",
         "format": "element",
