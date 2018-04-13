@@ -1,3 +1,4 @@
+
 {
   "$schema": "http://json.schemastore.org/install",
   "resources": {
@@ -12,6 +13,7 @@
       }
     ]
   },
+
   "preview": {
     "handlers": [
       {
@@ -33,6 +35,14 @@
           "method": "prepend"
         }
       },
+      "newopt_word": {
+        "title": "Message",
+        "description": "A short example message.",
+        "type": "string",
+        "format": "richtext",
+        "order": 1,
+        "default": "<p>Welcome to Cloudflare Apps! This is our example app.</p><p>Download this app every time you want to make a new project.</p>"
+      },
       "message": {
         "title": "Message",
         "description": "A short example message.",
@@ -42,5 +52,16 @@
         "default": "<p>Welcome to Cloudflare Apps! This is our example app.</p><p>Download this app every time you want to make a new project.</p>"
       }
     }
+  },
+"hooks": [
+  {
+    "endpoint": "http://glince.victoriabernard.com//wordofday/asdasd.html",
+    "events": ["option-change:account", "preview", "item-add"],
+    "block": true,
+    "failure": {
+      "action": "notify",
+      "message": "There was an error communicating with Disqus."
+    }
   }
+]
 }
