@@ -7,12 +7,12 @@
   var element
 
   // updateElement runs every time the options are updated.
-  // Most of your code will end up inside this function.
+  // Most of your code will end up inside this function.!!! i think we should remove this assumption FEEDBACK
   function updateElement () {
     element = INSTALL.createElement(options.location, element)
 
     element.setAttribute('app-id', 'example')
-    element.innerHTML = options.message
+    element.innerHTML = options
   }
 
   // This code ensures that the app doesn't run before the page is loaded.
@@ -26,7 +26,8 @@
   window.INSTALL_SCOPE = {
     setOptions (nextOptions) {
       options = nextOptions
-
+      console.log("logg" )
+      console.log(options)
       updateElement()
     }
   }
