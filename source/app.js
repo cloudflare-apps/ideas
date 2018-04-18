@@ -7,7 +7,7 @@
   var element
 
   // updateElement runs every time the options are updated.
-  // Most of your code will end up inside this function.!!! i think we should remove this assumption FEEDBACK
+  // Most of your code will end up inside this function.
   function updateElement () {
     element = INSTALL.createElement(options.location, element)
 
