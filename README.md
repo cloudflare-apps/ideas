@@ -2,22 +2,13 @@
 
 Download this app and replace our code any time you want to build an Cloudflare app.
 
-_Looking to use the latest JavaScript and CSS features? Check out our [Webpack example app](https://github.com/cloudflare-apps/example-webpack-app)!_
-
-# Ideas
-
-Potential ideas for new Cloudflare apps.
-
-__[View the list →](https://github.com/cloudflare-apps/example-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22App+Idea%22+sort%3Areactions-%2B1-desc)__
-
-__[Submit a new idea →](https://github.com/cloudflare-apps/example-app/issues/new)__
-
+_Looking to use the latest JavaScript and CSS features? Check out our [Webpack example app](https://github.com/CloudflareApps/ExampleWebpackApp)!_
 
 ## Setup
 
-Fork and clone the repo or <a href="https://github.com/cloudflare-apps/example-app/releases/latest" >download the latest release</a>.
+Fork and clone the repo or <a href="https://github.com/CloudflareApps/ExampleApp/releases/latest" >download the latest release</a>.
 
-Install the optional developer dependencies with `yarn install` (or `npm install`)
+Install the optional developer dependencies with `npm install`
 
 ## Usage
 
@@ -43,15 +34,12 @@ This is where all the <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 An directory for icons, tile images, and screenshots.
 
-[Download <code class="inline">media-templates.sketch</code>](https://github.com/cloudflare-apps/media-templates/raw/master/media-templates.sketch)
+[Download <code class="inline">media-templates.sketch</code>](https://github.com/CloudflareApps/MediaTemplates/raw/master/media-templates.sketch)
 
 ### Troubleshooting
 
 - <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
 
-### Install button snippet
-
-```html
 <a href="https://www.cloudflare.com/apps/[[YOUR APP ALIAS]]/install?source=button">
   <img
     src="https://install.cloudflareapps.com/install-button.png"
@@ -59,4 +47,3 @@ An directory for icons, tile images, and screenshots.
     border="0"
     width="150">
 </a>
-```
