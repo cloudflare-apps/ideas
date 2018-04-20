@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "standard --fix ./source/**/*.js || true",
     "start": "webpack-cli",
-    "test": "mocha",
     "build": "webpack",
     "dev": "webpack --mode development"
   },
@@ -24,7 +23,6 @@
   "dependencies": {},
   "devDependencies": {
     "@cloudflare-apps/environment": "^0.0.2",
-    "mocha": "^5.1.1",
     "standard": "^9.0.2",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.14"
