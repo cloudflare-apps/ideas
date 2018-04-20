@@ -1,5 +1,7 @@
 ## Local testing
 
-Viewing `ExampleApp/local_testing/test.html` in your browser will allow you to test without using the [App Creator](https://www.cloudflare.com/apps/developer/app-creator  )
+1. Run `npm run build` 
+2. Add any additional scripts or css files to the head of **`test.html`** .
+3. View  `./<ExampleApp>/local_testing/test.html` in your browser to allow you to test offline and without using the [App Creator](https://www.cloudflare.com/apps/developer/app-creator)
 
-* Please modify **`window.INSTALL_OPTIONS`** in `ExampleApp/local_testing/local.js` to edit the default **`INSTALL_OPTIONS`** that will be tested. There should be a default value for every option in `install.json`
+Note The default values in **`install.json`**  will be used. 

@@ -7,7 +7,8 @@
     "lint": "standard --fix ./source/**/*.js || true",
     "start": "webpack-cli",
     "test": "mocha",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --mode development"
   },
   "private": true,
   "repository": {
