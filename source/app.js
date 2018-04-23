@@ -20,7 +20,7 @@
   window.INSTALL_SCOPE = {
     setOptions: function setOptions (nextOptions) {
       options = nextOptions
-
+      
       updateElement()
     }
   }

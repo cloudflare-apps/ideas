@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "lint": "standard --fix ./source/**/*.js || true"
+    "lint": "standard --fix ./source/**/*.js || true",
+    "start": "webpack-cli",
+    "build": "webpack",
+    "dev": "webpack --mode development"
   },
   "private": true,
   "repository": {
@@ -19,7 +22,10 @@
   "homepage": "https://github.com/cloudflare-apps/example-app#readme",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^9.0.2"
+    "@cloudflare-apps/environment": "^0.0.2",
+    "standard": "^9.0.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
   },
   "standard": {
     "globals": [
