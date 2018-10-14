@@ -8,14 +8,13 @@ _Looking to use the latest JavaScript and CSS features? Check out our [Webpack e
 
 Potential ideas for new Cloudflare apps.
 
-__[View the list →](https://github.com/cloudflare-apps/example-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22App+Idea%22+sort%3Areactions-%2B1-desc)__
+**[View the list →](https://github.com/cloudflare-apps/example-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22App+Idea%22+sort%3Areactions-%2B1-desc)**
 
-__[Submit a new idea →](https://github.com/cloudflare-apps/example-app/issues/new)__
-
+**[Submit a new idea →](https://github.com/cloudflare-apps/example-app/issues/new)**
 
 ## Setup
 
-Fork and clone the repo or <a href="https://github.com/cloudflare-apps/example-app/releases/latest" >download the latest release</a>.
+Fork and clone the repo or [download the latest release](https://github.com/cloudflare-apps/example-app/releases/latest).
 
 Install the optional developer dependencies with `yarn install` (or `npm install`)
 
@@ -35,19 +34,19 @@ Styles for your app.
 
 #### `install.json`
 
-This is where all the <a href="https://www.cloudflare.com/apps/developer/docs/install-json">installer options</a> are added for the app.
+This is where all the [installer options](https://www.cloudflare.com/apps/developer/docs/install-json) are added for the app.
 
-<a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
+[Syntax can be tricky](http://install.json.is/), so be sure to double check it.
 
 #### `media/**`
 
 An directory for icons, tile images, and screenshots.
 
-[Download <code class="inline">media-templates.sketch</code>](https://github.com/cloudflare-apps/media-templates/raw/master/media-templates.sketch)
+[Download `media-templates.sketch`](https://github.com/cloudflare-apps/media-templates/raw/master/media-templates.sketch)
 
 ### Troubleshooting
 
-- <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
+- Consult [the Cloudflare developer documentation](https://www.cloudflare.com/apps/developer/docs/getting-started) for examples and API usage.
 
 ### Install button snippet
 
@@ -59,4 +58,10 @@ An directory for icons, tile images, and screenshots.
     border="0"
     width="150">
 </a>
+```
+
+and in Markdown:
+
+```md
+[![Install YOUR_APP_NAME with Cloudflare](https://install.cloudflareapps.com/install-button.png)](https://www.cloudflare.com/apps/YOUR_APP_ALIAS/install?source=button)
 ```
